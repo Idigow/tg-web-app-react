@@ -5,7 +5,6 @@ import Header from './components/Header/Header';
 
 function App() {
   const { tg, onToggleButton } = useTelegram();
-  console.log(tg);
 
   useEffect(() => {
     tg.ready()
